@@ -5,7 +5,7 @@ public static void main(String[] args){
 	System.out.println("Original String :"+current+" Reverse String :"+buffer.toString());
 	
 	String current_str="BANANA";
-	reverse(current_str);
+	System.out.println("Reverse :"+reverse(current_str));
 
 
 	}
