@@ -9,7 +9,7 @@ public static void main(String[] args){
 
 
 	}
-	public static void reverse(String str){
+	public static String reverse(String str){
 	String finalString="";
 	for (int i=str.length()-1;i>=0;i--){
 	
@@ -17,5 +17,6 @@ public static void main(String[] args){
 	
 	}
 	System.out.println("Reverse :"+finalString);
+	return finalString;
 	}
 }
